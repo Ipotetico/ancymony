@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ancymony/static/css/main.f6ac6c5d.css",
+    "main.js": "/ancymony/static/js/main.4217d26c.js",
+    "index.html": "/ancymony/index.html",
+    "main.f6ac6c5d.css.map": "/ancymony/static/css/main.f6ac6c5d.css.map",
+    "main.4217d26c.js.map": "/ancymony/static/js/main.4217d26c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6ac6c5d.css",
+    "static/js/main.4217d26c.js"
+  ]
+}
