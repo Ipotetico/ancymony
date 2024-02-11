@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ancymony/static/css/main.f6ac6c5d.css",
-    "main.js": "/ancymony/static/js/main.d717dfc1.js",
+    "main.css": "/ancymony/static/css/main.6eef76f1.css",
+    "main.js": "/ancymony/static/js/main.02d95470.js",
     "index.html": "/ancymony/index.html",
-    "main.f6ac6c5d.css.map": "/ancymony/static/css/main.f6ac6c5d.css.map",
-    "main.d717dfc1.js.map": "/ancymony/static/js/main.d717dfc1.js.map"
+    "main.6eef76f1.css.map": "/ancymony/static/css/main.6eef76f1.css.map",
+    "main.02d95470.js.map": "/ancymony/static/js/main.02d95470.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6ac6c5d.css",
-    "static/js/main.d717dfc1.js"
+    "static/css/main.6eef76f1.css",
+    "static/js/main.02d95470.js"
   ]
 }
