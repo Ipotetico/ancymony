@@ -7,7 +7,7 @@ const App = () => {
       <div className="container">
         <img
           className="fota"
-          src={process.env.PUBLIC_URL + `images/zboje.png`}
+          src={process.env.PUBLIC_URL + `/images/zboje.png`}
           alt=""
         />
         <p className="zboje">
