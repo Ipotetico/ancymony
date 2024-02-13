@@ -1,28 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.scss";
+import Motto from "./components/Motto";
+import Antypiraci from "./components/Antypiraci";
+import Start from "./components/Start";
 
 const App = () => {
+  const [page, setPage] = useState(2);
   return (
     <>
-      <div className="container">
-        <img
-          className="fota"
-          src={process.env.PUBLIC_URL + `/images/zboje.png`}
-          alt=""
-        />
-        <p className="zboje">
-          — Czysta fantazja — odparł Starszy Zbójca. — Jeżeli dzisiejszym poetom
-          wolno pisać wiersze bez rymu i rytmu, to dlaczego zbójca nie miałby
-          obdarowywać napadniętego? Jesteśmy po prostu antyzbójami, to cała
-          tajemnica.
-        </p>
-        <p className="zboje">
-          — Dziękuję — powiedział Smok i zamknął notatnik.
-        </p>
-        <span className="zboje">
-          Stanisław Pagaczewski "Porwanie Baltazara Gąbki"
-        </span>
-      </div>
+      {/* {page === 1 && <Start setPage={setPage} />} */}
+      {page === 2 && <Motto setPage={setPage} />}
+      {page === 3 && <Antypiraci setPage={setPage} />}
     </>
   );
 };
